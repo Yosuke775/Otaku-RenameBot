@@ -26,20 +26,20 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "21655449")
-    API_HASH  = os.environ.get("API_HASH", "112be9974e163f6dbd645ce4b94f4e6a")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6782811930:AAFDqkELEVJeGGlTbI5tavrac7RfZ7-Qzw4") 
+    API_ID    = os.environ.get("API_ID", "23476863")
+    API_HASH  = os.environ.get("API_HASH", "69daa0835439c4211f34c2e9ad0acb5c")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8164412620:AAHs3-BJ5CFNcloB3Nr0KnxOf33MyN08IG0") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Cluster0")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","Haruto 179")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://Haruto179:Haruto179@cluster179.hy2mawo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster179")
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1229852181').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "team_netflix") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6617544956').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "Otaku_Hindi_Hub") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002475576837"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
