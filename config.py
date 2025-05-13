@@ -36,7 +36,7 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
+    START_PIC   = os.environ.get("START_PIC", "https://sl.bing.net/kLRIwdDi3Vs")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6617544956').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "Otaku_Hindi_Hub") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002475576837"))
