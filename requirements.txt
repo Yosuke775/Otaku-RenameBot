@@ -1,4 +1,4 @@
-python-3.10.13
+
 pytz
  
 pyrogram==2.0.83
