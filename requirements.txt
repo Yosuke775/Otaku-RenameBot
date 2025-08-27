@@ -5,6 +5,6 @@ pyrogram==2.0.83
 tgcrypto==1.2.5
 pymongo==3.12.3
 motor==2.5.1
-aiohttp==3.8.4
+aiohttp>=3.8.6
 dnspython==2.3.0
 python-dotenv
